@@ -13,8 +13,8 @@ public class NotesCount {
 					if(amount >= notes[i]) {
 						
 						noteCounter [i] = amount/notes[i];
-						amount = amount - noteCounter[i]* notes[i];
-						
+						amount = amount - noteCounter[i]* notes[i]; 
+						 //another logic to determine reminder from amount is (amount = amount % notes[i];)
 					}
 				}
 				if(amount>0) {
